@@ -8,3 +8,11 @@ class MentorAdmin(admin.ModelAdmin):
 @admin.register(Course)
 class CourseAdmin(admin.ModelAdmin):
     pass
+
+
+
+
+
+
+admin.site.site_header = "Mentorship App"
+admin.site.site_title = "Mentorship App"
